@@ -24,7 +24,7 @@ public class TestController {
 	@GetMapping("/admin")
 	public String showAdmin()
 	{
-		return "in admin page...";//@RespBody 
+		return "in admin page...in admin page...";//@RespBody 
 	}
 /* This is comment*/
 }
