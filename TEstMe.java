@@ -14,6 +14,9 @@ public class TEstMe {
 		String s=(String)h2.getRef();//prog : expl down casting
 		h1=h2;//no err : since h1 n h2 : HOlder 
 		data=(Integer)h1.getRef();//class cast exc : String can't be cast to Integer!
+
+		System.out.println("Testing clone");
+		System.out.println("Testing clone");
 		
 		
 		
